@@ -3,3 +3,4 @@ Solutions to all sorts of annoying problems. Ranges from common to rare. I canâ€
 
 
 ### Fix npm requires root access to install modules
+use nvm
