@@ -3,7 +3,25 @@ Solutions to all sorts of annoying problems. Ranges from common to rare. I canâ€
 
 
 ## Fix npm requires root access to install modules
-Use nvm. It's that simple.
+Use nvm. It's that simple.  
+
+Uninstall Nodejs and NPM  
+
+Then install NVM - [NVM install and update instructions](https://github.com/nvm-sh/nvm#installing-and-updating)  
+
+```bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+
+# or
+
+wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+```
+
+Then install node using NVM
+```bash
+nvm install node
+```
+
 
 ## Create GitHub repo from command line in a folder and push it.
 _Yeah I know, I dont know how to use git._  
