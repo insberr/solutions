@@ -138,3 +138,23 @@ install
 dont reboot  
 copy boot and efi  
 ...  
+
+## Make password entry in terminal display feedback (*'s)
+
+```bash
+sudo visudo
+```
+
+Find
+
+```bash
+Defaults    env_reset
+```
+
+Make it look like
+
+```bash
+Defaults    env_reset,pwfeedback
+```
+
+`Ctrl + X` to save and exit. `Y` to confirm and `Enter` to finish.
