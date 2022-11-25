@@ -4,7 +4,8 @@ Solutions to all sorts of annoying problems. Ranges from common to rare. I canâ€
 
 ## Table of contents
 
-Maybe ill organize this better later. Or even make it a website.
+Maybe ill organize this better later. Or even make it a website.  
+[New Linux Install Todo List](./newlinuxinstall.md)
 
 ## Fix npm requires root access to install modules
 
@@ -158,3 +159,7 @@ Defaults    env_reset,pwfeedback
 ```
 
 `Ctrl + X` to save and exit. `Y` to confirm and `Enter` to finish.
+
+## Transfer files from mac to linux pc
+
+Use the `scp` command.
