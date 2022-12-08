@@ -163,3 +163,11 @@ Defaults    env_reset,pwfeedback
 ## Transfer files from mac to linux pc
 
 Use the `scp` command.
+
+
+## Fix Grub Starting In The Command Line
+
+[link](https://unix.stackexchange.com/a/330852)
+
+Write steps here.
+
